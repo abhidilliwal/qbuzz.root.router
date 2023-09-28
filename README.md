@@ -25,3 +25,7 @@ brew install mkcert
     ```bash
     DEBUG=router:* nodemon start
     ```
+
+4. Now make sure all the apps like `qtelematics` and `incidents` are built as production ready and their repository folders are placed in the same level as this project.
+
+5. goto https://localhost:3000/pages/id.frontend.qtelematics
